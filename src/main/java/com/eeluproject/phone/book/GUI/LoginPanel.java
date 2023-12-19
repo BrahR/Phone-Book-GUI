@@ -295,6 +295,7 @@ public class LoginPanel extends javax.swing.JFrame {
     SignUp.setForeground(new java.awt.Color(199, 226, 255));
     SignUp.setText("SignUp");
     SignUp.setBorder(null);
+    SignUp.setContentAreaFilled(false);
     SignUp.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
     SignUp.addActionListener(
       new java.awt.event.ActionListener() {
@@ -316,11 +317,11 @@ public class LoginPanel extends javax.swing.JFrame {
 
     setSize(new java.awt.Dimension(916, 440));
     setLocationRelativeTo(null);
-  } // </editor-fold>//GEN-END:initComponents
+  } // </editor-fold>                        
 
-  private void jCheckBox1ActionPerformed(java.awt.event.ActionEvent evt) { //GEN-FIRST:event_jCheckBox1ActionPerformed
+  private void jCheckBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox1ActionPerformed
     // TODO add your handling code here:
-  } //GEN-LAST:event_jCheckBox1ActionPerformed
+  }//GEN-LAST:event_jCheckBox1ActionPerformed
 
   private void jLabel2MouseClicked(java.awt.event.MouseEvent evt) { // GEN-FIRST:event_jLabel2MouseClicked
     System.exit(0);

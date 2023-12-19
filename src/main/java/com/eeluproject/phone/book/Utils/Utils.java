@@ -42,21 +42,19 @@ public class Utils {
   }
 
   public static boolean validatePhoneNumber(String phone) {
-    PhoneNumberUtil phoneUtil = PhoneNumberUtil.getInstance();
-    try {
-      PhoneNumber parsedPhone = phoneUtil.parse(
-        phone,
-        CountryUtils.getCountry()
-      );
-      return phoneUtil.isValidNumberForRegion(
-        parsedPhone,
-        CountryUtils.getCountry()
-      );
-    } catch (NumberParseException e) {
-      System.out.println("Error parsing" + e.getMessage());
+    if (phone.matches("[0-9]+")) {
+      PhoneNumberUtil phoneUtil = PhoneNumberUtil.getInstance();
+      try {
+        PhoneNumber parsedPhone = phoneUtil.parse(
+          phone,
+          CountryUtils.getCountry()
+        );
+        return phoneUtil.isValidNumber(parsedPhone);
+      } catch (NumberParseException e) {
+        System.out.println("Error parsing: " + e.getMessage());
+      }
     }
-
-    return true;
+    return false;
   }
 
   public static boolean _validPhone(String phone) {
@@ -83,7 +81,7 @@ public class Utils {
 
   public static boolean validateAddress(String address) {
     // System.out.println("Invalid address, please Enter a valid one");
-    return address.trim().matches(("^[a-zA-Z0-9.,\\s]+$"));
+    return address.trim().matches(("^[a-zA-Z0-9.,\\s ]+$"));
   }
 
   public static boolean validateContact(String email) {
@@ -107,7 +105,11 @@ public class Utils {
       .stream()
       .anyMatch(contact -> contact.getPhone().equals(phone));
   }
-
+  public static boolean isDuplicated(int id, String phone) {
+    return BookedContact.contacts
+      .stream()
+      .anyMatch(cont -> cont.getId() != id && cont.getPhone().equals(phone));
+  }
   public static int generateRandomNumber() {
     int id = 0;
     do {
@@ -117,10 +119,13 @@ public class Utils {
     return id;
   }
 
-  public static void setValues(DefaultTableModel model, ArrayList<Object> data, int selectedRow) {
+  public static void setValues(
+    DefaultTableModel model,
+    ArrayList<Object> data,
+    int selectedRow
+  ) {
     for (int i = 1; i < data.size(); i++) {
-      model.setValueAt(data.get(i), selectedRow, i+1 );
+      model.setValueAt(data.get(i), selectedRow, i + 1);
     }
   }
 }
-

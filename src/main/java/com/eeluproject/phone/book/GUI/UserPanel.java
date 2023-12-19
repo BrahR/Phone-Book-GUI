@@ -93,7 +93,7 @@ public class UserPanel extends javax.swing.JFrame {
     setTitle("Book Phone"); // Set the title of the JFrame
     ImageIcon icon = new ImageIcon("../Assets/Icons/4298389.png");
     setIconImage(icon.getImage()); // Set the program icon
-        populateBookedTable();
+    populateBookedTable();
 
     allowedCountry.setText(
       "Allowed Country : " + CountryUtils.getCountryAndCode()
@@ -170,9 +170,9 @@ public class UserPanel extends javax.swing.JFrame {
     ArrayList<Validator> validators = new ArrayList<>(
       Arrays.asList(
         new Validator(
-          !BookedContact.isDuplicated(user.getId(), phone),
-          "This Phone Number is registered with another contact",
-          "Duplicated Phone Number"
+          Utils.isDuplicated(user.getId(), phone),
+          "Duplicated Phone number",
+          "Invalid input"
         )
       )
     );

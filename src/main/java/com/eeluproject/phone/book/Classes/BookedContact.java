@@ -66,12 +66,6 @@ public class BookedContact {
     return validContacts;
   }
 
-  public static boolean isDuplicated(int id, String phone) {
-    return contacts
-      .stream()
-      .anyMatch(cont -> cont.getId() != id && cont.getPhone().equals(phone));
-  }
-
   public static boolean isDuplicated(String phone) {
     return contacts.stream().anyMatch(cont -> cont.getPhone().equals(phone));
   }

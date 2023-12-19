@@ -220,7 +220,7 @@ public class AdminPanel extends javax.swing.JFrame {
       ArrayList<Validator> err1 = new ArrayList<>(
           Arrays.asList(
               new Validator(
-                  !BookedContact.isDuplicated(selectedRowId, phone),
+                  Utils.isDuplicated(selectedRowId, phone),
                   "This Phone Number is registered with another contact",
                   "Duplicated Phone Number")));
 

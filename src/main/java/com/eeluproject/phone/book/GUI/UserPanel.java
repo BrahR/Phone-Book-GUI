@@ -266,7 +266,7 @@ public class UserPanel extends javax.swing.JFrame {
 
       for (int i = selectedRows.length - 1; i >= 0; i--) {
         int row = selectedRows[i];
-        String phone = (String) model.getValueAt(row, 1);
+        String phone = (String) model.getValueAt(row, 2);
 
         model.removeRow(row);
         BookedContact.deleteByPhone(phone);

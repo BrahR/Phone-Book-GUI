@@ -316,11 +316,11 @@ public class LoginPanel extends javax.swing.JFrame {
 
     setSize(new java.awt.Dimension(916, 440));
     setLocationRelativeTo(null);
-  } // </editor-fold>//GEN-END:initComponents
+  } // </editor-fold>                        
 
-  private void jCheckBox1ActionPerformed(java.awt.event.ActionEvent evt) { //GEN-FIRST:event_jCheckBox1ActionPerformed
+  private void jCheckBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox1ActionPerformed
     // TODO add your handling code here:
-  } //GEN-LAST:event_jCheckBox1ActionPerformed
+  }//GEN-LAST:event_jCheckBox1ActionPerformed
 
   private void jLabel2MouseClicked(java.awt.event.MouseEvent evt) { // GEN-FIRST:event_jLabel2MouseClicked
     System.exit(0);

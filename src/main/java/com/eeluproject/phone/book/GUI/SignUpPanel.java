@@ -166,9 +166,12 @@ public class SignUpPanel extends javax.swing.JFrame {
   private javax.swing.JPasswordField txtconfirmpass;
   private javax.swing.JPasswordField txtpass;
   private javax.swing.JTextField txtusername;
-
   // End of variables declaration//GEN-END:variables
-
+  
+  @SuppressWarnings("unchecked")
+  // <editor-fold defaultstate="collapsed" desc="Generated
+  // <editor-fold defaultstate="collapsed" desc="Generated
+  // Code">//GEN-BEGIN:initComponents
   private void initComponents() {
     jScrollPane1 = new javax.swing.JScrollPane();
     jTextArea1 = new javax.swing.JTextArea();

@@ -91,7 +91,7 @@ public class UserPanel extends javax.swing.JFrame {
     user = _user;
     initComponents();
     setTitle("Book Phone"); // Set the title of the JFrame
-    ImageIcon icon = new ImageIcon("../Assets/Icons/4298389.png");
+    ImageIcon icon = new ImageIcon("/com/eeluproject/phone/book/Assets/Icons/4298389.png");
     setIconImage(icon.getImage()); // Set the program icon
     populateBookedTable();
 
@@ -505,7 +505,7 @@ public class UserPanel extends javax.swing.JFrame {
     clearButton.setFont(new java.awt.Font("Segoe UI Semilight", 1, 14)); // NOI18N
     clearButton.setIcon(
       new javax.swing.ImageIcon(
-        getClass().getResource("../Assets/Icons/eraser.png")
+        getClass().getResource("/com/eeluproject/phone/book/Assets/Icons/eraser.png")
       )
     ); // NOI18N
     clearButton.setText("Clear");
@@ -528,7 +528,7 @@ public class UserPanel extends javax.swing.JFrame {
     addButton.setFont(new java.awt.Font("Segoe UI Semilight", 1, 14)); // NOI18N
     addButton.setIcon(
       new javax.swing.ImageIcon(
-        getClass().getResource("../Assets/Icons/add.png")
+        getClass().getResource("/com/eeluproject/phone/book/Assets/Icons/add.png")
       )
     ); // NOI18N
     addButton.setText("Book");
@@ -551,7 +551,7 @@ public class UserPanel extends javax.swing.JFrame {
     deleteBook.setFont(new java.awt.Font("Segoe UI Semilight", 1, 14)); // NOI18N
     deleteBook.setIcon(
       new javax.swing.ImageIcon(
-        getClass().getResource("../Assets/Icons/delete.png")
+        getClass().getResource("/com/eeluproject/phone/book/Assets/Icons/delete.png")
       )
     ); // NOI18N
     deleteBook.setText("Delete Booking");
@@ -574,7 +574,7 @@ public class UserPanel extends javax.swing.JFrame {
     updateButton.setFont(new java.awt.Font("Segoe UI Semilight", 1, 14)); // NOI18N
     updateButton.setIcon(
       new javax.swing.ImageIcon(
-        getClass().getResource("../Assets/Icons/updated.png")
+        getClass().getResource("/com/eeluproject/phone/book/Assets/Icons/updated.png")
       )
     ); // NOI18N
     updateButton.setText("Update");
@@ -597,7 +597,7 @@ public class UserPanel extends javax.swing.JFrame {
     NameLable.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
     NameLable.setIcon(
       new javax.swing.ImageIcon(
-        getClass().getResource("../Assets/Icons/signature.png")
+        getClass().getResource("/com/eeluproject/phone/book/Assets/Icons/signature.png")
       )
     ); // NOI18N
     NameLable.setLabelFor(NameLable);
@@ -612,7 +612,7 @@ public class UserPanel extends javax.swing.JFrame {
     phoneLable1.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
     phoneLable1.setIcon(
       new javax.swing.ImageIcon(
-        getClass().getResource("../Assets/Icons/smartphone.png")
+        getClass().getResource("/com/eeluproject/phone/book/Assets/Icons/smartphone.png")
       )
     ); // NOI18N
     phoneLable1.setLabelFor(phoneNumber);
@@ -635,7 +635,7 @@ public class UserPanel extends javax.swing.JFrame {
     NameLable1.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
     NameLable1.setIcon(
       new javax.swing.ImageIcon(
-        getClass().getResource("../Assets/Icons/address.png")
+        getClass().getResource("/com/eeluproject/phone/book/Assets/Icons/address.png")
       )
     ); // NOI18N
     NameLable1.setLabelFor(NameLable);
@@ -650,7 +650,7 @@ public class UserPanel extends javax.swing.JFrame {
     deleteButton1.setFont(new java.awt.Font("Segoe UI Semilight", 1, 14)); // NOI18N
     deleteButton1.setIcon(
       new javax.swing.ImageIcon(
-        getClass().getResource("../Assets/Icons/delete.png")
+        getClass().getResource("/com/eeluproject/phone/book/Assets/Icons/delete.png")
       )
     ); // NOI18N
     deleteButton1.setText("Delete Account");

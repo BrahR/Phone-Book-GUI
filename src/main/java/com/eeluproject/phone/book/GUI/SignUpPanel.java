@@ -258,7 +258,7 @@ public class SignUpPanel extends javax.swing.JFrame {
     jLabel7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
     jLabel7.setIcon(
       new javax.swing.ImageIcon(
-        getClass().getResource("../Assets/Icons/icons8_user_20px_1.png")
+        getClass().getResource("/com/eeluproject/phone/book/Assets/Icons/icons8_user_20px_1.png")
       )
     ); // NOI18N
     jPanel1.add(
@@ -292,7 +292,7 @@ public class SignUpPanel extends javax.swing.JFrame {
     Disable2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
     Disable2.setIcon(
       new javax.swing.ImageIcon(
-        getClass().getResource("../Assets/Icons/icons8_invisible_20px_1.png")
+        getClass().getResource("/com/eeluproject/phone/book/Assets/Icons/icons8_invisible_20px_1.png")
       )
     ); // NOI18N
     Disable2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -311,7 +311,7 @@ public class SignUpPanel extends javax.swing.JFrame {
     Enable2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
     Enable2.setIcon(
       new javax.swing.ImageIcon(
-        getClass().getResource("../Assets/Icons/icons8_eye_20px_1.png")
+        getClass().getResource("/com/eeluproject/phone/book/Assets/Icons/icons8_eye_20px_1.png")
       )
     ); // NOI18N
     Enable2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -330,7 +330,7 @@ public class SignUpPanel extends javax.swing.JFrame {
     Disable1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
     Disable1.setIcon(
       new javax.swing.ImageIcon(
-        getClass().getResource("../Assets/Icons/icons8_invisible_20px_1.png")
+        getClass().getResource("/com/eeluproject/phone/book/Assets/Icons/icons8_invisible_20px_1.png")
       )
     ); // NOI18N
     Disable1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -349,7 +349,7 @@ public class SignUpPanel extends javax.swing.JFrame {
     Enable1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
     Enable1.setIcon(
       new javax.swing.ImageIcon(
-        getClass().getResource("../Assets/Icons/icons8_eye_20px_1.png")
+        getClass().getResource("/com/eeluproject/phone/book/Assets/Icons/icons8_eye_20px_1.png")
       )
     ); // NOI18N
     Enable1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -368,7 +368,7 @@ public class SignUpPanel extends javax.swing.JFrame {
     jLabel14.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
     jLabel14.setIcon(
       new javax.swing.ImageIcon(
-        getClass().getResource("../Assets/Icons/icons8_user_20px_1.png")
+        getClass().getResource("/com/eeluproject/phone/book/Assets/Icons/icons8_user_20px_1.png")
       )
     ); // NOI18N
     jPanel1.add(
@@ -517,7 +517,7 @@ public class SignUpPanel extends javax.swing.JFrame {
 
     jLabel1.setIcon(
       new javax.swing.ImageIcon(
-        getClass().getResource("../Assets/Icons/bg-login.png")
+        getClass().getResource("/com/eeluproject/phone/book/Assets/Icons/bg-login.png")
       )
     ); // NOI18N
     jPanel2.add(
